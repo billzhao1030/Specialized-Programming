@@ -1,3 +1,4 @@
+package Lab.Lab_1;
 public class Reppity {
     public static void main(String[] args) {
         int result = longestRep("abcdabcdabcdabCD");
@@ -10,8 +11,8 @@ public class Reppity {
         int end = 1;
 
         while (end <= input.length() / 2) {
-            if (input.substring(end).contains(input.subSequence(start, end))) {
-                longestSub = (String) input.subSequence(start, end);
+            if (input.substring(end).contains(input.substring(start, end))) {
+                longestSub = input.substring(start, end);
             } else {
                 start++; 
             } 

@@ -1,6 +1,7 @@
+package Lab.Lab_1;
 public class ThrowTheBall {
     public static void main(String[] args) {
-        int result = timeThrown(15,4,9);
+        int result = timeThrown(5,3,2);
         System.out.println(result);
     }
     

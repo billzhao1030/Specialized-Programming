@@ -1,6 +1,7 @@
+package Lab.Lab_1;
 public class Inchworm {
     public static void main(String[] args) {
-        int result = lunchtime(0, 0, 0);
+        int result = lunchtime(1000, 3, 7);
         System.out.println(result);
     }
 
