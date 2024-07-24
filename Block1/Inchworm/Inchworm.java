@@ -1,4 +1,4 @@
-package Lab.Lab_1;
+package Block1.Inchworm;
 public class Inchworm {
     public static void main(String[] args) {
         int result = lunchtime(1000, 3, 7);

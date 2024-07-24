@@ -1,4 +1,4 @@
-package Lab.Lab_1;
+package Block1.ThrowTheBall;
 public class ThrowTheBall {
     public static void main(String[] args) {
         int result = timeThrown(5,3,2);
