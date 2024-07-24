@@ -1,8 +1,5 @@
 public class demo {
     public static void main(String[] args) {
-        String ss = getString();
-        System.out.println(ss);
-
         Wife w = new Wife();
         System.out.println(w.age);
 
