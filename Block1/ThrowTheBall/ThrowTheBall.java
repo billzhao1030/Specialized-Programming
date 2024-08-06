@@ -1,11 +1,11 @@
-package Block1.ThrowTheBall;
 public class ThrowTheBall {
     public static void main(String[] args) {
-        int result = timeThrown(5,3,2);
+        int result = timesThrown(5,3,2);
         System.out.println(result);
     }
     
-    public static int timeThrown(int N, int M, int L) {
+
+    public static int timesThrown(int N, int M, int L) {
         int times = 0;
 
         // Initialize array and set the first player

@@ -1,4 +1,4 @@
-package Lab.Lab_1;
+package Lab;
 
 import java.util.HashSet;
 import java.util.Set;

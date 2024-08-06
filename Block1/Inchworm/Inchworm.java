@@ -1,14 +1,13 @@
-package Block1.Inchworm;
 public class Inchworm {
     public static void main(String[] args) {
-        int result = lunchtime(1000, 3, 7);
+        int result = lunchtime(12, 6, 4);
         System.out.println(result);
     }
 
     public static int lunchtime(int branch, int rest, int leaf) {
         int numEat = 0;
 
-        for (int i = 0; i < branch; i+=leaf) {
+        for (int i = 0; i < branch + 1; i+=leaf) {
             if (i % rest == 0) {
                 numEat ++;
             } 

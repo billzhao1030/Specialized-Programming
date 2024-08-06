@@ -1,4 +1,4 @@
-package Lab.Lab_1;
+package Lab;
 
 public class AimToTen {
     public static void main(String[] args) {

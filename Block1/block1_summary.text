@@ -1,0 +1,68 @@
+*******************
+* Group practice  * 
+*******************
+
+List the problems you attempted, your scores so far for each problem, and which Java API Classes and methods you used to solve each problem.
+
+
+Problem1: ThrowTheBall (100 out of 100)
+
+Special API Classes used: None
+Basic methods used: int[]
+Method of the problem: we simulate the seats using array, with the index represent player number, then we store the number of time each player get the ball in the array, and simulate the pass of the ball as index change. During this we keep tracking the max number of times player get the ball, if the maximum reach the limit we return the total number of passing.
+
+
+Problem2: Reppity (100 out of 100)
+
+Special API Classes used: None
+Basic methods used: contains(String), substring(start, end)
+Method of the problem: We use two pointer and move the two pointer as a sliding window. In the beginning the start pointer point at the first index of the string, and end point at the second one, if the substring from start till the char before end is appear again in the remain string, then move the end pointer to the next index, other wise move both start and end pointer to the next index. During the process we keep track of the longest substring, and return the length of it in the end.
+
+
+Problem3: MooingCows (100 out of 100)
+
+Special API Classes used: Math.pow(number, power), ArrayList.add
+Basic methods used: charAt(index) 
+Method of the problem: There are two ways of solving this problems, the first one is to go over each position of the string[] and inside it go through all element again to see if they are 'C' if they are then calculate the distance. The second one is to store the location of 'C' first and go through all 'C' twice and calculate distance. During this we keep track of minimum distance. The first solution has O(N^4) and second one has O(N^2)
+
+
+-- Reflection -- 
+Were the problems attempted in the lab  easy/medium/challenging? 
+After this practice, how confident you feel when solving this problem type? 
+What else did you learn from the group practice? 
+
+1. The problems attempted is medium for these three questions
+2. After this practice I feel pretty confident to solve some brute force question type
+3. The revison of the ArrayList helps me to use dynamic array as a refresher.
+
+
+************************
+* Individual practice  *
+************************
+Problem4: ChangingString (100 out of 100)
+
+Special API Classes used: ArrayList.add, Collections.sort(List)
+Basic methods used: charAt(index), Math.abs(number)
+Method of the problem: First we use the feature char a - char b is the different number to add all the absolute value of the difference into arraylist. Then we sort the list so that the value are from small to large. Then we sum up from the frist till size - K element. Moreover, if we encounter cases that we have to change even when it's same, we count the number of force to change digit which is K - nonZeroDiff, and add to sum.
+
+Problem5: PartySeats (100 out of 100)
+
+Special API Classes used: ArrayList.add, Collections.sort(List)
+Basic methods used: String.split(spliter)
+Method of the problem: First we need to make sure there are one boy and one girl on both HOST side which means if the number of attendees if not divisible by 4 then we can't range it, also if the number of boys and girls are not equal then also return empty. We then add all boys and girls to seperate arraylist and sort alphabetically. In the end we create a list which size is attendees size plus 2 for host and hostess. The first element is host and set the size / 2 as hostess. Then insert girls then boys alternatively after host and boys then girls after hostess. 
+
+
+-- Reflection -- 
+Explain the rationale behind your choice of individual practice.
+Which area you focused on improving (eg. speed, fluency, algorithmic design, coding)?
+What are your goals for the next block of practice? 
+
+1. For the two problems I choose, the difficulty are medium and they both using arraylist and sort, and the solutions are relatively straight forward for me to practice.Thus I consider these two as my individual practice.
+2. The things to improve are: time complecity, try to think all the possible case so we won't miss anything.
+3. In the next block I hope I can optimize the time efficiency if possible and think all the 
+
+
+
+
+
+
